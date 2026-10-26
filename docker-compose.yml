@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: bmrs-trading-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - PROJECT_NAME=BMRS Wind Trading Decision Terminal
+      - DEFAULT_AUCTION_GATE_HOUR=11
+      - NOMINAL_WIND_CAPACITY_MW=30000.0
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: bmrs-trading-frontend
+    ports:
+      - "3000:80"
+    environment:
+      - VITE_API_URL=http://localhost:8000/api/v1
+    depends_on:
+      - backend
+    restart: unless-stopped

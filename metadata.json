@@ -1,0 +1,6 @@
+{
+  "name": "BMRS Wind Trading Decision Terminal",
+  "description": "Production-ready quantitative trading intelligence portal evaluating EPEX SPOT / Nord Pool UK Day-Ahead wind forecasts (WINDFOR) vs delivered actuals (FUELHH) with gate closure alignment, residual thermal requirement calculations, and risk metrics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
