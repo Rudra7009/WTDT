@@ -126,17 +126,5 @@ Sample response:
 
 ---
 
-## Video Presentation Scripts (Strictly < 10 Minutes Total)
-
-### Part 1: Client Business Pitch (Max 5 Minutes)
-**Target Audience:** Head of Day-Ahead Power Trading & Portfolio Managers at a UK Energy Utility  
-**Key themes:** Lookahead bias elimination, 11:00 AM auction cutoff, automated residual thermal procurement sizing, cash-out penalty minimization.
-
-### Part 2: Technical Lead Architecture Review (Max 5 Minutes)
-**Target Audience:** Internal Technical Lead / Principal Architect  
-**Key themes:** Vector-accelerated Pandas as-of join algorithm, httpx asynchronous streaming, Pydantic V2 static contracts, two-stage Docker builds with Nginx reverse proxy.
-
----
-
 ## AI Usage Disclosure
-In compliance with project requirements, AI-assisted development tools (Large Language Models) were utilized during the development of this prototype to generate boilerplate schema mappings, synthesize synoptic wind timeseries algorithms, and assist in drafting front-end Tailwind UI layouts. All financial logic, market clearing rules, statistical metrics, and system integration points were engineered, verified, and audited by the lead developer.
+AI-assisted development tools (Large Language Models) were utilized during the development of this prototype to generate boilerplate schema mappings, synthesize synoptic wind timeseries algorithms, few financial logic, market clearing rules, statistical metrics, and system integration points were Engineered, Verified, and audited by the lead developer [Rudra](https://github.com/Rudra7009).
